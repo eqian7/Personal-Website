@@ -1,5 +1,53 @@
+/*Navbar*/
+
 .navbar {
 	padding: 0;
 	position: fixed; 
 	width: 100%;
+	background-color: rgba(0,0,0,0) !important;
+	font-size: 20px;
+}
+
+.nav-item {
+	padding-right: 0;
+	color: white;
+}
+
+.navbar-head {
+	color: white;
+}
+
+a:hover {
+	background-color: rgba(160,160,160,0.1);
+	text-decoration: none;
+	color: white;
+}
+
+
+/*Background*/
+
+#home-background {
+	background-image: url('../pictures/home.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+	z-index: -10;
+	padding: 0;
+	margin: 0;
+
+}
+
+#home-row-1 {
+	background-color: rgba(160,160,160,0.5);
+	z-index: 10;
+	height: 80vh;
+	width: 100%;
+	align-items: center;
+	margin: 0px;
+}
+
+#home-picture-text {
+	text-align: center;
+	color: white;
+	font-size: 80px;
 }
