@@ -4,11 +4,33 @@
 	padding: 0;
 	position: fixed; 
 	width: 100%;
-	background-color: rgba(0,0,0,0) !important;
+	background-color: black 
 	font-size: 20px;
+	z-index: 20;
 }
 
+#mynav {
+	z-index: 20;
+	height: 50px;
+}
+
+.navbar-nav {
+
+}
+
+
+.nav-colored {
+	background-color: rgba(160,160,160);
+	transition: background-color 200ms linear;
+}
+
+.nav-transparent {
+	background-color: rgba(0,0,0,0) !important;
+}
+
+
 .nav-item {
+	
 	padding-right: 0;
 	color: white;
 }
@@ -17,8 +39,9 @@
 	color: white;
 }
 
-a:hover {
-	background-color: rgba(160,160,160,0.1);
+.nav-item:hover {
+	z-index: 30;
+	background-color: rgba(160,160,160,0.2);
 	text-decoration: none;
 	color: white;
 }
@@ -26,28 +49,108 @@ a:hover {
 
 /*Background*/
 
-#home-background {
-	background-image: url('../pictures/home.jpg');
+#background-container {
+	background-image: url('../pictures/mountains.jpg');
 	background-position: center;
 	background-size: cover;
-	height: 80vh;
+	color: white;
+	background-attachment: fixed;
+	height: 100vh;
 	z-index: -10;
 	padding: 0;
 	margin: 0;
 
 }
 
-#home-row-1 {
-	background-color: rgba(160,160,160,0.5);
+#background-row-1 {
+	background-color: rgba(160,160,160,0.3);
 	z-index: 10;
-	height: 80vh;
+	height: 100vh;
 	width: 100%;
 	align-items: center;
+	background-attachment: fixed;
 	margin: 0px;
 }
 
-#home-picture-text {
+#background-picture-text {
 	text-align: center;
 	color: white;
 	font-size: 80px;
 }
+
+
+/*About*/
+
+
+#home-about {
+	margin: 0;
+	background-color: white;
+	padding: 0;
+}
+
+#about-container {
+	/*background-color: rgba(160,160,160,0.5);*/
+	
+	background-size: cover;
+	z-index: 10;
+	height: 60vh;
+	width: 100%;
+	/*align-items: center;*/
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+#about-header-col {
+	text-align: center;
+	color: black;
+	font-size: 60px;
+	padding: 60px;
+	padding-bottom: 20px;
+}
+
+.about-header-row {
+	padding-top: 50px;
+
+}
+
+.about-body-row { 
+	padding: 10px; 
+	font-size: 20px;
+}
+
+
+/*Experiences*/
+
+
+#experiences-container {
+	/*background-color: rgba(160,160,160,0.5);*/
+	
+	background-size: cover;
+	z-index: 10;
+	height: 60vh;
+	width: 100%;
+	/*align-items: center;*/
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+#experiences-header-col {
+	text-align: center;
+	color: black;
+	font-size: 60px;
+	/*padding: 60px;*/
+	padding-bottom: 50px;
+}
+
+#smart-pic{
+	/*background-image: url('../pictures/smart.png');*/
+	width: 20%;
+	height: 20vh;
+	z-index: 30;
+}
+
+#smart-text{
+	color: black;
+	font-size: 30px;
+}
+
