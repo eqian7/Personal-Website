@@ -1,1 +1,1 @@
-# EQ's website
+permalink: /build/index.html
