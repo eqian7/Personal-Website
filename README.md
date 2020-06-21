@@ -1,1 +1,3 @@
+---
 permalink: /build/index.html
+---
