@@ -1,0 +1,31 @@
+#Navbar {
+
+  width: 100%;
+  height: 100px;
+  list-style-type: none;
+}
+
+.NavbarItem {
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+}
+
+.NavbarItem a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.NavbarItem:after {
+  display:block;
+  content: '';
+  transform-origin: bottom;
+  border-bottom: solid 1px white;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.NavbarItem:hover::after {
+  transform: scaleX(1);
+}
