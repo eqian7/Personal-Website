@@ -1,0 +1,10 @@
+#AboutHeader {
+  text-align: center;
+}
+
+#AboutPicture {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
